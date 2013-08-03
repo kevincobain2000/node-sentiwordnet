@@ -1,0 +1,31 @@
+{
+  "name": "node-sentiwordnet",
+  "version": "0.0.1",
+  "description": "Sentiwordnet search nodejs and redis",
+  "main": "main.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevincobain2000/node-sentiwordnet"
+  },
+  "keywords": [
+    "word",
+    "sense",
+    "disambiguation",
+    "sentiment",
+    "classification",
+    "classifier",
+    "sentiwordnet"
+  ],
+  "author": "Pulkit Kathuria",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/kevincobain2000/node-sentiwordnet/issues"
+  },
+  "dependencies":{
+      "redis":"latest"
+  }
+  
+}
