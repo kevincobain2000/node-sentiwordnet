@@ -1,5 +1,5 @@
 {
-  "name": "sentiwordnet",
+  "name": "node-sentiwordnet",
   "version": "0.0.1",
   "description": "Sentiwordnet search nodejs and redis",
   "main": "main.js",

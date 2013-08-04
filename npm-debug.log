@@ -1,0 +1,52 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/martinrue/node-sentiment/tarball/master' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose read json /Users/kevincobain2000/MyLibrary/WebServer/Documents/NODE/node-sentiwordnet/package.json
+5 verbose read json /Users/kevincobain2000/MyLibrary/WebServer/Documents/NODE/node-sentiwordnet/node_modules/mocha/package.json
+6 verbose read json /Users/kevincobain2000/MyLibrary/WebServer/Documents/NODE/node-sentiwordnet/node_modules/redis/package.json
+7 verbose read json /Users/kevincobain2000/MyLibrary/WebServer/Documents/NODE/node-sentiwordnet/node_modules/should/package.json
+8 verbose read json /Users/kevincobain2000/MyLibrary/WebServer/Documents/NODE/node-sentiwordnet/node_modules/sleep/package.json
+9 verbose read json /Users/kevincobain2000/MyLibrary/WebServer/Documents/NODE/node-sentiwordnet/node_modules/test/package.json
+10 verbose read json /Users/kevincobain2000/MyLibrary/WebServer/Documents/NODE/node-sentiwordnet/node_modules/underscore/package.json
+11 warn package.json sleep@1.1.1 'repositories' (plural) Not supported.
+11 warn package.json Please pick one as the 'repository' field
+12 verbose from cache /Users/kevincobain2000/MyLibrary/WebServer/Documents/NODE/node-sentiwordnet/package.json
+13 verbose readDependencies using package.json deps
+14 verbose cache add [ 'https://github.com/martinrue/node-sentiment/tarball/master',
+14 verbose cache add   null ]
+15 verbose cache add name=undefined spec="https://github.com/martinrue/node-sentiment/tarball/master" args=["https://github.com/martinrue/node-sentiment/tarball/master",null]
+16 verbose parsed url { protocol: 'https:',
+16 verbose parsed url   slashes: true,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: 'github.com',
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: 'github.com',
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '/martinrue/node-sentiment/tarball/master',
+16 verbose parsed url   path: '/martinrue/node-sentiment/tarball/master',
+16 verbose parsed url   href: 'https://github.com/martinrue/node-sentiment/tarball/master' }
+17 silly lockFile 434d5f34-ue-node-sentiment-tarball-master https://github.com/martinrue/node-sentiment/tarball/master
+18 verbose lock https://github.com/martinrue/node-sentiment/tarball/master /Users/kevincobain2000/.npm/434d5f34-ue-node-sentiment-tarball-master.lock
+19 silly lockFile 434d5f34-ue-node-sentiment-tarball-master https://github.com/martinrue/node-sentiment/tarball/master
+20 error Error: EACCES, open '/Users/kevincobain2000/.npm/434d5f34-ue-node-sentiment-tarball-master.lock'
+20 error  { [Error: EACCES, open '/Users/kevincobain2000/.npm/434d5f34-ue-node-sentiment-tarball-master.lock']
+20 error   errno: 3,
+20 error   code: 'EACCES',
+20 error   path: '/Users/kevincobain2000/.npm/434d5f34-ue-node-sentiment-tarball-master.lock' }
+21 error Please try running this command again as root/Administrator.
+22 error System Darwin 12.4.0
+23 error command "node" "/usr/local/bin/npm" "install" "https://github.com/martinrue/node-sentiment/tarball/master"
+24 error cwd /Users/kevincobain2000/MyLibrary/WebServer/Documents/NODE/node-sentiwordnet
+25 error node -v v0.10.12
+26 error npm -v 1.2.32
+27 error path /Users/kevincobain2000/.npm/434d5f34-ue-node-sentiment-tarball-master.lock
+28 error code EACCES
+29 error errno 3
+30 error stack Error: EACCES, open '/Users/kevincobain2000/.npm/434d5f34-ue-node-sentiment-tarball-master.lock'
+31 verbose exit [ 3, true ]
