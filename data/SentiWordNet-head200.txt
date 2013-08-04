@@ -1,0 +1,200 @@
+# SentiWordNet v3.0.0 (1 June 2010)
+# Copyright 2010 ISTI-CNR.
+# All right reserved.
+#
+# SentiWordNet is distributed under the Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.
+# http://creativecommons.org/licenses/by-sa/3.0/
+#
+# For any information about SentiWordNet:
+# Web: http://sentiwordnet.isti.cnr.it
+# -------
+#
+# Data format.
+#
+# SentiWordNet v3.0 is based on WordNet version 3.0.
+# WordNet website: http://wordnet.princeton.edu/
+#
+# The pair (POS,ID) uniquely identifies a WordNet (3.0) synset.
+# The values PosScore and NegScore are the positivity and negativity
+# score assigned by SentiWordNet to the synset.
+# The objectivity score can be calculated as:
+# ObjScore = 1 - (PosScore + NegScore)
+# SynsetTerms column reports the terms, with sense number, belonging
+# to the synset (separated by spaces).
+#
+# -------
+#
+# POS	ID	PosScore	NegScore	SynsetTerms	Gloss
+a	00001740	0.125	0	able#1	(usually followed by `to') having the necessary means or skill or know-how or authority to do something; "able to swim"; "she was able to program her computer"; "we were at last able to buy a car"; "able to get a grant for the project"
+a	00002098	0	0.75	unable#1	(usually followed by `to') not having the necessary means or skill or know-how; "unable to get to town without a car"; "unable to obtain funds"
+a	00002312	0	0	dorsal#2 abaxial#1	facing away from the axis of an organ or organism; "the abaxial surface of a leaf is the underside or side facing away from the stem"
+a	00002527	0	0	ventral#2 adaxial#1	nearest to or facing toward the axis of an organ or organism; "the upper side of a leaf is known as the adaxial surface"
+a	00002730	0	0	acroscopic#1	facing or on the side toward the apex
+a	00002843	0	0	basiscopic#1	facing or on the side toward the base
+a	00002956	0	0	abducting#1 abducent#1	especially of muscles; drawing away from the midline of the body or from an adjacent part
+a	00003131	0	0	adductive#1 adducting#1 adducent#1	especially of muscles; bringing together or drawing toward the midline of the body or toward an adjacent part
+a	00003356	0	0	nascent#1	being born or beginning; "the nascent chicks"; "a nascent insurgency"
+a	00003553	0	0	emerging#2 emergent#2	coming into existence; "an emergent republic"
+a	00003700	0.25	0	dissilient#1	bursting open with force, as do some ripe seed vessels
+a	00003829	0.25	0	parturient#2	giving birth; "a parturient heifer"
+a	00003939	0	0	dying#1	in or associated with the process of passing from life or ceasing to be; "a dying man"; "his dying wish"; "a dying fire"; "a dying civilization"
+a	00004171	0	0	moribund#2	being on the point of death; breathing your last; "a moribund patient"
+a	00004296	0	0	last#5	occurring at the time of death; "his last words"; "the last rites"
+a	00004413	0	0	abridged#1	(used of texts) shortened by condensing or rewriting; "an abridged version"
+a	00004615	0	0	shortened#4 cut#3	with parts removed; "the drastically cut film"
+a	00004723	0	0	half-length#2	abridged to half its original length
+a	00004817	0	0	potted#3	(British informal) summarized or abridged; "a potted version of a novel"
+a	00004980	0	0	unabridged#1	(used of texts) not shortened; "an unabridged novel"
+a	00005107	0.5	0	uncut#7 full-length#2	complete; "the full-length play"
+a	00005205	0.5	0	absolute#1	perfect or complete or pure; "absolute loyalty"; "absolute silence"; "absolute truth"; "absolute alcohol"
+a	00005473	0.75	0	direct#10	lacking compromising or mitigating elements; exact; "the direct opposite"
+a	00005599	0.5	0.5	unquestioning#2 implicit#2	being without doubt or reserve; "implicit trust"
+a	00005718	0.125	0	infinite#4	total and all-embracing; "God's infinite wisdom"
+a	00005839	0.5	0.125	living#3	(informal) absolute; "she is a living doll"; "scared the living daylights out of them"; "beat the living hell out of him"
+a	00006032	0.25	0.5	relative#1 comparative#2	estimated by comparison; not absolute or complete; "a relative stranger"
+a	00006245	0	0	relational#1	having a relation or being related
+a	00006336	0	0	absorptive#1 absorbent#1	having power or capacity or tendency to absorb or soak up something (liquids or energy etc.); "as absorbent as a sponge"
+a	00006777	0.375	0	sorbefacient#1 absorbefacient#1	inducing or promoting absorption
+a	00006885	0	0.75	assimilatory#1 assimilative#2 assimilating#1	capable of taking (gas, light, or liquids) into a solution; "an assimilative substance
+a	00007096	0	0	hygroscopic#1	absorbing moisture (as from the air)
+a	00007208	0	0.125	receptive#4	able to absorb liquid (not repellent); "the paper is ink-receptive"
+a	00007331	0	0	shock-absorbent#1	having the capacity to absorb the energy of an impact; "the material absorbs shock and is used for shock-absorbent insoles"
+a	00007516	0	0	spongy#2 spongelike#2	like a sponge in being able to absorb liquids and yield it back when compressed
+a	00007697	0	0	thirsty#4	able to take in large quantities of moisture; "thirsty towels"
+a	00007813	0	0.5	nonabsorptive#1 nonabsorbent#1	not capable of absorbing or soaking up (liquids)
+a	00007990	0	0.5	resistant#5 repellent#3	incapable of absorbing or mixing with; "a water-repellent fabric"; "plastic highly resistant to steam and water"
+a	00008206	0	0	surface-assimilative#1 adsorptive#1 adsorbent#1	having capacity or tendency to adsorb or cause to accumulate on a surface
+a	00008443	0	0.25	chemosorptive#1 chemisorptive#1	having the capacity to adsorb by chemical as contrasted with physical forces
+a	00008595	0	0.25	nonadsorptive#1 nonadsorbent#1	lacking a capacity to adsorb or cause to accumulate on a surface
+a	00008734	0.5	0	absorbable#1	capable of being absorbed or taken in through the pores of a surface
+a	00008877	0.25	0	adsorbate#1 adsorbable#1	capable of being adsorbed or accumulated on a surface of a solid
+a	00009046	0	0	abstemious#1	sparing in consumption of especially food and drink; "the pleasures of the table, never of much consequence to one naturally abstemious"- John Galsworthy
+a	00009346	0	0.625	abstinent#1 abstentious#1	self-restraining; not indulging an appetite especially for food or drink; "not totally abstinent but abstemious"
+a	00009618	0.5	0.25	spartan#4 austere#3 ascetical#2 ascetic#2	practicing great self-denial; "Be systematically ascetic...do...something for no other reason than that you would rather not do it"- William James; "a desert nomad's austere life"; "a spartan diet"; "a spartan existence"
+a	00009978	0	0	gluttonous#1	given to excess in consumption of especially food or drink; "over-fed women and their gluttonous husbands"; "a gluttonous debauch"; "a gluttonous appetite for food and praise and pleasure"
+a	00010385	0	0	crapulous#2	given to gross intemperance in eating or drinking; "a crapulous old reprobate"
+a	00010537	0	0.5	crapulous#1 crapulent#1	suffering from excessive eating or drinking; "crapulent sleep"; "a crapulous stomach"
+a	00010726	0	0	wolfish#2 voracious#2 ravenous#2 ravening#3 rapacious#3 esurient#3 edacious#1	devouring or craving food in great quantities; "edacious vultures"; "a rapacious appetite"; "ravenous as wolves"; "voracious sharks"
+a	00011160	0	0	greedy#3	wanting to eat or drink more than one can reasonably consume; "don't be greedy with the cookies"
+a	00011327	0	0.125	swinish#2 porcine#3 piggy#1 piggish#1 hoggish#1	resembling swine; coarsely gluttonous or greedy; "piggish table manners"; "the piggy fat-cheeked little boy and his porcine pot-bellied father"; "swinish slavering over food"
+a	00011665	0.125	0.375	too-greedy#1 overgreedy#1	excessively gluttonous
+a	00011757	0	0	abstract#1	existing only in the mind; separated from embodiment; "abstract words like `truth' and `justice'"
+a	00012071	0.375	0	notional#4 ideational#1 conceptional#1	being of the nature of a notion or concept; "a plan abstract and conceptional"; "to improve notional comprehension"; "a notional response to the question"
+a	00012362	0.375	0.25	conceptual#1	being or characterized by concepts or their formation; "conceptual discussions"; "the schizophrenic loses ability to abstract or do conceptual thinking"; "sex is a notional category, gender is a grammatical category"
+a	00012689	0	0	ideal#2	constituting or existing only in the form of an idea or mental image or conception; "a poem or essay may be typical of its period in idea or ideal content"
+a	00012932	0.125	0.125	ideological#2 ideologic#1	concerned with or suggestive of ideas; "ideological application of a theory"; "the drama's symbolism was very ideological"
+a	00013160	0.625	0.25	concrete#1	capable of being perceived by the senses; not abstract or imaginary; "concrete objects such as trees"
+a	00013442	0	0	objective#4	belonging to immediate experience of actual things or events; "objective benefits"; "an objective example"; "there is no objective evidence of anything of the kind"
+a	00013662	0	0	tangible#2 real#4	capable of being treated as fact; "tangible evidence"; "his brief time as Prime Minister brought few real benefits to the poor"
+a	00013887	0	0.25	abundant#1	present in great quantity; "an abundant supply of water"
+a	00014358	0	0.25	galore#2 abounding#1	existing in abundance; "abounding confidence"; "whiskey galore"
+a	00014490	0.125	0	rich#12 plentiful#2 plenteous#1 copious#2 ample#2	affording an abundant supply; "had ample food for the party"; "copious provisions"; "food is plentiful"; "a plenteous grape harvest"; "a rich supply"
+a	00014858	0	0	voluminous#3 copious#1	large in number or quantity (especially of discourse); "she took copious notes"; "a subject of voluminous legislation"
+a	00015097	0.25	0.625	easy#12	obtained with little effort or sacrifice, often obtained illegally; "easy money"
+a	00015247	0	0.25	riotous#1 profuse#1 luxuriant#3 lush#1 exuberant#3	produced or growing in extreme abundance; "their riotous blooming"
+a	00015480	0	0.5	thick#10	abounding; having a lot of; "the top was thick with dust"
+a	00015589	0.125	0.375	long#9	having or being more than normal or necessary:"long on brains"; "in long supply"
+a	00015720	0.125	0.5	rife#2 plethoric#1 overabundant#1	excessively abundant
+a	00015854	0	0.25	plentiful#1	existing in great number or quantity; "rhinoceroses were once plentiful here"
+a	00016005	0	0	rampant#3	(of a plant) having a lush and unchecked growth; "a rampant growth of weeds"
+a	00016135	0	0.25	rank#5	growing profusely; "rank jungle vegetation"
+a	00016247	0.125	0.5	superabundant#1	most excessively abundant
+a	00016350	0	0	teeming#1	abundantly filled with especially living things; "the Third World's teeming millions"; "the teeming boulevard"
+a	00016532	0	0.375	torrential#3	pouring in abundance; "torrential rains"
+a	00016647	0.125	0.5	verdant#1	characterized by abundance of verdure
+a	00016756	0	0.25	scarce#1	deficient in quantity or number compared with the demand; "fresh vegetables were scarce during the drought"
+a	00017024	0	0.875	rare#3	not widely distributed; "rare herbs"; "rare patches of green in the desert"
+a	00017186	0	0.625	tight#6	affected by scarcity and expensive to borrow; "tight money"; "a tight market"
+a	00017352	0	0.625	mistreated#1 maltreated#1 ill-treated#1 abused#2	subjected to cruel treatment; "an abused wife"
+a	00017509	0	0.75	battered#3	exhibiting symptoms resulting from repeated physical and emotional injury; "a battered child"; "the battered woman syndrome"
+a	00017688	0.375	0.25	unabused#1	not physically abused; treated properly
+a	00017782	0.625	0	acceptable#1	worthy of acceptance or satisfactory; "acceptable levels of radiation"; "performances varied from acceptable to excellent"
+a	00018069	0.25	0	bankable#2	acceptable to or at a bank; "bankable funds"
+a	00018222	0.25	0.625	unimpeachable#3 unexceptionable#1	completely acceptable; not open to exception or reproach; "two unexceptionable witnesses"; "a judge's ethics should be unexceptionable"
+a	00018435	0	0.5	unobjectionable#3	not objectionable; "the ends are unobjectionable; it's the means that one can't accept"
+a	00018584	0.125	0.375	unacceptable#2	not acceptable; not welcome; "a word unacceptable in polite society"; "an unacceptable violation of personal freedom"
+a	00018850	0	0.375	objectionable#2 exceptionable#1	liable to objection or debate; used of something one might take exception to; "a thoroughly unpleasant highly exceptionable piece of writing"; "found the politician's views objectionable"
+a	00019131	0.625	0	accessible#1	capable of being reached; "a town accessible by rail"
+a	00019349	0.375	0	reachable#1 approachable#3	easily approached; "a site approachable from a branch of the Niger"
+a	00019505	0.625	0	getatable#1 get-at-able#1 come-at-able#2	capable of being reached or attained; "a very getatable man"; "both oil and coal are there but not in getatable locations"
+a	00019731	0.125	0.125	ready_to_hand#1 handy#1	easy to reach; "found a handy spot for the can opener"
+a	00019874	0.5	0.125	unaccessible#1 inaccessible#1	capable of being reached only with great difficulty or not at all
+a	00020103	0.125	0	remote#4 outback#1	inaccessible and sparsely populated;
+a	00020241	0.125	0.25	untrodden#1 untrod#1 untracked#1 trackless#2 roadless#1 pathless#1	lacking pathways; "trackless wilderness"; "roadless areas"
+a	00020410	0	0	unreached#1 unreachable#1 unapproachable#2 out_of_reach#1	inaccessibly located or situated; "an unapproachable chalet high in the mountains"; "an unreachable canyon"; "the unreachable stars"
+a	00020647	0	0.625	ungetatable#1 un-get-at-able#1 un-come-at-able#1	difficult to reach or attain
+a	00020787	0.5	0	accommodative#1 accommodating#1	helpful in bringing about a harmonious adaptation; "the warden was always accommodating in allowing visitors in"; "made a special effort to be accommodating"
+a	00021110	0.75	0	obliging#1 complaisant#1	showing a cheerful willingness to do favors for others; "to close one's eyes like a complaisant husband whose wife has taken a lover"; "the obliging waiter was in no hurry for us to leave"
+a	00021403	0.25	0.25	unobliging#1 unaccommodating#1	not accommodating; "the unaccommodating bus driver pulled out while she was banging on the door"
+a	00021592	0.125	0.25	uncooperative#2 disobliging#1	intentionally unaccommodating; "the action was not offensive to him but proved somewhat disobliging"
+a	00021766	0.5	0	accurate#1	conforming exactly or almost exactly to fact or to a standard or performing with total accuracy; "an accurate reproduction"; "the accounting was accurate"; "accurate measurements"; "an accurate scale"
+a	00022219	0.625	0	faithful#2 close#5	marked by fidelity to an original; "a close translation"; "a faithful copy of the portrait"; "a faithful rendering of the observed facts"
+a	00022437	0.625	0.25	dead-on#1	accurate and to the point; "a dead-on feel for characterization"; "She avoids big scenes...preferring to rely on small gestures and dead-on dialogue"- Peter S.Prescott
+a	00022680	0.5	0.125	high-fidelity#1 hi-fi#1	characterized by minimal distortion in sound reproduction; "a high-fidelity recording"; "a hi-fi system"
+a	00022852	0.5	0	surgical#3	performed with great precision; "a surgical air strike"
+a	00022962	0	0	straight#5	in keeping with the facts; "set the record straight"; "made sure the facts were straight in the report"
+a	00023120	0.125	0	true#2 dead_on_target#1	accurately placed or thrown; "his aim was true"; "he was dead on target"
+a	00023278	0.875	0	veracious#2 right#14	precisely accurate; "a veracious account"
+a	00023383	0.125	0.625	inaccurate#1	not exact; "an inaccurate translation"; "the thermometer is inaccurate"
+a	00023655	0	0	outside#10 away#3	(of a baseball pitch) on the far side of home plate from the batter; "the pitch was away (or wide)"; "an outside pitch"
+a	00023854	0.125	0.75	wrong#9 incorrect#4 faulty#2	characterized by errors; not agreeing with a model or not following established rules; "he submitted a faulty report"; "an incorrect transcription"; the wrong side of the road"
+a	00024139	0	0.5	unfaithful#4	not trustworthy; "an unfaithful reproduction"
+a	00024241	0	0.625	wide_of_the_mark#1 wide#7	not on target; "the kick was wide"; "the arrow was wide of the mark"; "a claim that was wide of the truth"
+a	00024417	0.125	0	accustomed#1	(often followed by `to') in the habit of or adapted to; "accustomed to doing her own work"; "I've grown accustomed to her face"
+a	00024619	0	0.375	wont_to#1 used_to#1	in the habit; "I am used to hitchhiking"; "you'll get used to the idea"; "...was wont to complain that this is a cold world"- Henry David Thoreau
+a	00024834	0	0.75	unaccustomed#1	not habituated to; unfamiliar with; "unaccustomed to wearing suits"
+a	00024996	0	0.125	new#11	unfamiliar; "new experiences"; "experiences new to him"; "errors of someone new to the job"
+a	00025138	0	0.125	unused#4	infrequently exposed to; "feet unused to shoes"
+a	00025238	0	0.125	acidic#1	being or containing an acid; of a solution having an excess of hydrogen atoms (having a pH of less than 7)
+a	00025470	0	0.375	acid#3	having the characteristics of an acid; "an acid reaction"
+a	00025633	0	0.5	acid-forming#1	yielding an acid in aqueous solution
+a	00025728	0	0	alkaline#1 alkalic#1	relating to or containing an alkali; having a pH greater than 7; "alkaline soils derived from chalk or limestone"
+a	00026051	0.125	0.375	alkalescent#1 alcalescent#1	tending to become alkaline; slightly alkaline
+a	00026168	0.25	0	basic#4	of or denoting or of the nature of or containing a base
+a	00026294	0.125	0.125	base-forming#1	yielding a base in aqueous solution
+a	00026388	0.25	0.125	saltlike#1	resembling a compound formed by replacing hydrogen in an acid by a metal
+a	00026515	0.5	0	amphoteric#1 amphiprotic#1	having characteristics of both an acid and a base and capable of reacting as either
+a	00026706	0	0.25	acid-loving#1	thriving in a relatively acidic environment (especially of plants requiring a pH well below 7)
+a	00026895	0	0	aciduric#1 acidophilous#1 acidophilic#1	especially of some bacteria; growing well in an acid medium
+a	00027074	0	0.25	alkaline-loving#1	thriving in a relatively alkaline environment; (especially of plants requiring a pH above 7)
+a	00027247	0.125	0	acknowledged#1	recognized or made known or admitted; "the acknowledged leader of the community"; "a woman of acknowledged accomplishments"; "his acknowledged error"
+a	00027599	0.5	0	recognized#1 recognised#2 accepted#1	generally approved or compelling recognition; "several accepted techniques for treating the condition"; "his recognized superiority in this kind of work"
+a	00027833	0	0.125	self-confessed#1	owned up to; "his admitted doubts"; "the conceded error"; "a confessed murderer"; "a self-confessed plagiarist"
+a	00028008	0.25	0	assumptive#2	accepted as real or true without proof; "the assumed reason for his absence"; "assumptive beliefs"
+a	00028181	0.375	0	declarable#1	that must be declared; "declarable income"
+a	00028280	0	0	granted#1 given#1	acknowledged as a supposition; "given the engine's condition, it is a wonder that it started"
+a	00028471	0.125	0	putative#1	purported; commonly put forth or accepted as true on inconclusive grounds; "the foundling's putative father"; "the putative author of the book"
+a	00028672	0	0.625	unacknowledged#1	not recognized or admitted
+a	00028867	0	0.375	unvalued#1 unsung#2 unappreciated#2	having value that is not acknowledged
+a	00028984	0.25	0	unavowed#3 secret#3	not openly made known; "a secret marriage"; "a secret bride"
+a	00029108	0	0.375	unconfessed#1	not admitted; "unconfessed sins"
+a	00029216	0	0.5	unrecognized#1 unrecognised#2	not recognized; "he was unrecognized in his disguise"
+a	00029343	0	0	acquisitive#1	eager to acquire and possess things especially material possessions or ideas; "an acquisitive mind"; "an acquisitive society in which the craving for material things seems never satisfied"
+a	00029769	0.375	0	accumulative#2	marked by acquiring or amassing; "we live in an accumulative society"
+a	00029933	0	0	prehensile#3 greedy#1 grasping#1 grabby#1 covetous#2 avaricious#1	immoderately desirous of acquiring e.g. wealth; "they are avaricious and will do anything for money"; "casting covetous eyes on his neighbor's fields"; "a grasping old miser"; "grasping commercialism"; "greedy for money and power"; "grew richer and greedier"; "prehensile employers stingy with raises for their employees"
+a	00030508	0	0	possessive#2	desirous of owning; "small children are so possessive they will not let others play with their toys"
+a	00030701	0	0	plundering#1	given to taking by force what is desired
+a	00030798	0	0	predatory#3 predacious#2 predaceous#2	living by or given to victimizing others for personal gain; "predatory capitalists"; "a predatory, insensate society in which innocence and decency can prove fatal"- Peter S. Prescott; "a predacious kind of animal--the early geological gangster"- W.E.Swinton
+a	00031138	0.25	0.5	voracious#1 ravening#2 rapacious#2	excessively greedy and grasping; "a rapacious divorcee on the prowl"; "ravening creditors"; "paying taxes to voracious governments"
+a	00031384	0	0.5	sordid#4	meanly avaricious and mercenary; "sordid avarice"; "sordid material interests"
+a	00031533	0	0.5	unacquisitive#1	not acquisitive; not interested in acquiring or owning anything
+a	00031674	0	0	acropetal#1	of leaves or flowers; developing or opening in succession from base to apex
+a	00031824	0	0	basipetal#1	of leaves or flowers; developing or opening in succession from apex to base
+a	00031974	0.5	0.125	active#5	characterized by energetic activity; "an active toddler"; "active as a gazelle"; "an active man is a man of action"
+a	00032358	0	0	astir#2 about#1	on the move; "up and about"; "the whole town was astir over the incident"
+a	00032497	0.375	0	gymnastic#1 athletic#2 acrobatic#1	vigorously active; "an acrobatic dance"; "an athletic child"; "athletic playing"; "gymnastic exercises"
+a	00032733	0	0	spry#1 quick#3 nimble#1 agile#1	moving quickly and lightly; "sleek and agile as a gymnast"; "as nimble as a deer"; "nimble fingers"; "quick of foot"; "the old dog was so spry it was halfway up the stairs before we could stop it"
+a	00033077	0.5	0	hot#21	marked by excited activity; "a hot week on the stock market"
+a	00033206	0.25	0	overactive#1 hyperactive#1	more active than normal; "a hyperactive child"
+a	00033359	0.125	0	on_the_go#1	(of a person) very busy and active; "is always on the go"
+a	00033475	0.25	0	sporty#3	appropriate for sport or engagement in a sport
+a	00033574	0.375	0.5	inactive#9	not active physically or mentally; "illness forced him to live an inactive life"; "dreamy and inactive by nature"
+a	00033886	0.125	0	deskbound#1 desk-bound#1	restricted to working in an office rather than in an active physical capacity
+a	00034032	0.25	0.375	dormant#4 abeyant#1	inactive but capable of becoming active; "her feelings of affection are dormant but easily awakened"
+a	00034232	0	0.625	underactive#1 hypoactive#1	abnormally inactive
+a	00034322	0.25	0.125	torpid#1 soggy#3 sluggish#3 inert#3	slow and apathetic; "she was fat and inert"; "a sluggish worker"; "a mind grown torpid in old age"
+a	00034572	0.125	0	sedentary#1	requiring sitting or little activity; "forced by illness to lead a sedentary life"
+a	00034710	0	0	active#14	engaged in full-time work; "active duty"; "though past retirement age he is still active in his profession"
+a	00034924	0	0.125	activated#4	(military) set up and placed on active assignment; "a newly activated unit"
+a	00035074	0	0.375	inactive#8	not engaged in full-time work; "inactive reserve"; "an inactive member"
+a	00035254	0	0.625	off#5	not performing or scheduled for duties; "He's off every Tuesday"
