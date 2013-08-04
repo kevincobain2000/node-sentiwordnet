@@ -1,6 +1,6 @@
 {
   "name": "node-sentiwordnet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sentiwordnet search nodejs and redis",
   "main": "main.js",
   "scripts": {
