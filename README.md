@@ -5,6 +5,10 @@ Description
 
 [SentiWordNet] search module
 
+Demo
+----
+
+http://www8355ue.sakura.ne.jp/?action_classifiers_sentiwn=true
 
 Install
 -------
